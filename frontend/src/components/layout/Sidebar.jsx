@@ -10,11 +10,11 @@ import {
 } from '@heroicons/react/24/outline';
 
 const navigation = [
-  { name: 'Vehicle States', href: '/vehicles/states', icon: TruckIcon },
-  { name: 'Vehicle Entry', href: '/vehicles/entry', icon: HomeIcon },
-  { name: 'Tasks', href: '/tasks', icon: ClipboardDocumentListIcon },
-  { name: 'Users', href: '/users', icon: UsersIcon },
-  { name: 'Reports', href: '/reports', icon: ChartBarIcon },
+  { name: 'Vehicle States', href: '/dashboard/vehicles/states', icon: TruckIcon },
+  { name: 'Vehicle Entry', href: '/dashboard/vehicles/entry', icon: HomeIcon },
+  { name: 'Tasks', href: '/dashboard/tasks', icon: ClipboardDocumentListIcon },
+  { name: 'Users', href: '/dashboard/users', icon: UsersIcon },
+  { name: 'Reports', href: '/dashboard/reports', icon: ChartBarIcon },
 ];
 
 const Sidebar = ({ open, setOpen }) => {
